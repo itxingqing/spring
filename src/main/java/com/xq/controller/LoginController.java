@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
  *
  */
 @Controller
+@RequestMapping("/admin")
 public class LoginController {
 	
 	@RequestMapping("/index")
